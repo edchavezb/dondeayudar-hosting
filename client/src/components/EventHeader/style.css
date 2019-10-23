@@ -1,0 +1,45 @@
+.nombreEvento {
+    background: rgba(233, 233, 226, 0.358);
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    font-size: 5rem;
+    color: rgb(68, 68, 68);
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 2px 3px rgb(177, 177, 177);
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h5 { 
+    color: rgb(75, 75, 75);
+}
+
+.rowHeader {
+    background-image: url(https://ak0.picdn.net/shutterstock/videos/21123940/thumb/1.jpg);
+}
+
+a {
+    color: blueviolet;
+    justify-content: left;
+}
+
+.textInfoEsp {
+    padding: inherit;
+    margin: 1.5rem 1rem 0 0;
+}
+
+.TextObjNed {
+    margin-top: 1.5rem;
+}
+
+/* .fotoEvento {
+    background-image: URL("/images/logoPrueba.jpeg");
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+} */
