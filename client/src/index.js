@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import firebase from "firebase";
-import keys from "./firebase-config.js"
+import * as firebase from "firebase/app";
+import config from './firebase-config'
 
-firebase.initializeApp(keys);
+const firebaseConfig = process.env.REACT_APP_FIREBASE_CONFIG ? JSON.parse(process.env.REACT_APP_FIREBASE_CONFIG) : config
+console.log(firebaseConfig)
+firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(<App />, document.getElementById("root"));
